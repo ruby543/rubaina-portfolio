@@ -187,7 +187,7 @@ function App() {
     {/* Left: Profile Image */}
     <div className="flex justify-center md:justify-end">
       <img
-        src="/image.jpg"
+        src="image.jpg"
         alt="Rubaina Roshan"
         className="w-60 h-60 md:w-72 md:h-72 rounded-full object-cover shadow-lg animate-fade-in"
       />
@@ -379,7 +379,7 @@ function App() {
           {/* Embed PDF Resume */}
     <div className="mt-10">
       <iframe
-        src="/resume.pdf"
+        src="resume.pdf"
         title="Resume"
         width="100%"
         height="700px"
@@ -390,7 +390,7 @@ function App() {
     {/* Download Button */}
     <div className="mt-6 text-center">
       <a
-        href="/Rubaina_Resume.pdf"
+        href="resume.pdf"
         target="_blank"
         rel="noopener noreferrer"
         download
