@@ -81,10 +81,9 @@ function App() {
       period: 'Jul 2025 – Present',
       location: 'Remote',
       description: [
-        'Enhanced student learning by providing detailed feedback on weekly JavaScript and React assignments',
-        'Improved problem-solving by troubleshooting code issues through live Google Meet sessions and Slack communication',
-        'Facilitated student progress tracking and engagement using Airtable',
-        'Utilized JavaScript, React, VS Code, GitHub Codespaces, and CTD coding sandboxes for hands-on coding practice'
+        'Debugged 10+ React, Vue.js, and Node.js apps weekly in GitHub Codespaces, cutting recurring errors by 30% and reducing assignment delays',
+        'Refactored JavaScript components and streamlined Git workflows, improving maintainability across 15+ assignments and preventing merge conflicts',
+        'Boosted assignment completion rates 20% by delivering targeted debugging support, code optimization strategies, and collaboration best practices '
       ],
       technologies: ['JavaScript', 'React', 'VS Code', 'GitHub Codespaces', 'Slack', 'Airtable']
     },
@@ -94,10 +93,10 @@ function App() {
       period: 'May 2024 – Aug 2024',
       location: 'Alpharetta, GA',
       description: [
-        'Migrated 30+ legacy workflows to Salesforce Flows, boosting process efficiency 40% and cutting manual effort',
-        'Developed Apex REST API with 98% accuracy for account matching and messaging',
-        'Designed dynamic SOQL queries with robust error handling, reducing API failure rate and improving system stability',
-        'Collaborated with Agile developers and product managers to deliver workflow migration on schedule and meet goals'
+        'Migrated 30+ Salesforce Process Builders into Flows, reducing manual effort 40% and accelerating automation delivery across 20+ workflows',
+        'Engineered Apex REST API to post Chatter messages with secure authentication and JSON payloads, achieving 98% test coverage and 30% fewer API failures',
+        'Developed SOQL-based REST endpoints with injection-safe queries, increasing API reliability by 30% and strengthening data security',
+        'Delivered workflow migration early, enabling team to focus on 15+ additional critical tasks in the sprint'
       ],
       technologies: ['DevOps', 'SOQL', 'Java', 'Apex', 'Salesforce', 'REST APIs']
     }
