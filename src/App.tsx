@@ -379,7 +379,7 @@ function App() {
           {/* Embed PDF Resume */}
     <div className="mt-10">
       <iframe
-        src="resume.pdf"
+        src="Rubaina_Roshan_Resume.pdf"
         title="Resume"
         width="100%"
         height="700px"
@@ -390,7 +390,7 @@ function App() {
     {/* Download Button */}
     <div className="mt-6 text-center">
       <a
-        href="resume.pdf"
+        href="Rubaina_Roshan_Resume.pdf"
         target="_blank"
         rel="noopener noreferrer"
         download
