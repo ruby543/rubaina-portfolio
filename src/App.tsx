@@ -52,8 +52,15 @@ function App() {
 
   const projects = [
     {
+      title: 'AI Code Review Assistant',
+      description: 'An automated DevSecOps tool built with Python and the Gemini API that audits GitHub pull requests for security and logic errors. It streamlines peer reviews by delivering real-time, AI-driven feedback via GitHub Actions and PyGitHub.',
+      technologies: ['Python', 'GeminiAPI', 'GitHub Actions', 'PyGitHub'],
+      github: 'https://github.com/ruby543/ai-reviewer-final',
+      featured: true
+    },
+    {
       title: 'Expense Tracker Application',
-      description: 'Developed a secure backend with Spring Boot and JWT, using Docker and PostgreSQL for efficient, reliable data handling. Managed deployment on AWS EC2 and RDS, configuring for high availability, fault tolerance, and scalable infrastructure.',
+      description: 'Developed a secure backend with Spring Boot and JWT, using Docker and PostgreSQL for efficient, reliable data handling. Provisioned for deployment on AWS EC2 and RDS, configuring for high availability, fault tolerance, and scalable infrastructure.',
       technologies: ['AWS', 'Docker', 'PostgreSQL', 'Spring Boot', 'Maven', 'JWT'],
       github: 'https://github.com/ruby543/expense-tracker-api',
       featured: true
@@ -81,9 +88,7 @@ function App() {
       period: 'Jul 2025 – Present',
       location: 'Remote',
       description: [
-        'Debugged 10+ React, Vue.js, and Node.js apps weekly in GitHub Codespaces, cutting recurring errors by 30% and reducing assignment delays',
-        'Refactored JavaScript components and streamlined Git workflows, improving maintainability across 15+ assignments and preventing merge conflicts',
-        'Boosted assignment completion rates 20% by delivering targeted debugging support, code optimization strategies, and collaboration best practices '
+        'Translated complex technical concepts (React/Node.js) for 20+ learners, conducting remote training sessions and troubleshooting environment issues—similar to software implementation and onboarding'
       ],
       technologies: ['JavaScript', 'React', 'VS Code', 'GitHub Codespaces', 'Slack', 'Airtable']
     },
@@ -93,10 +98,10 @@ function App() {
       period: 'May 2024 – Aug 2024',
       location: 'Alpharetta, GA',
       description: [
-        'Migrated 30+ Salesforce Process Builders into Flows, reducing manual effort 40% and accelerating automation delivery across 20+ workflows',
-        'Engineered Apex REST API to post Chatter messages with secure authentication and JSON payloads, achieving 98% test coverage and 30% fewer API failures',
-        'Developed SOQL-based REST endpoints with injection-safe queries, increasing API reliability by 30% and strengthening data security',
-        'Delivered workflow migration early, enabling team to focus on 15+ additional critical tasks in the sprint'
+        'Migrated 30+ legacy Process Builders to Salesforce Flows, utilizing Lightning Web Components (LWC) to manually design complex automation logic, improving system efficiency by 40% ',
+        'Developed custom Apex Classes and Objects to architect a robust REST API, automating Chatter messaging on Account records with 98% accuracy ',
+        'Leveraged SOQL to secure data endpoints and completed workflow migrations ahead of schedule, enabling the implementation of 3+ additional high-priority tasks',
+        'Collaborated in an Agile environment, actively participating in daily stand-ups and Sprint Meetings to align development progress with cross-functional team goals'
       ],
       technologies: ['DevOps', 'SOQL', 'Java', 'Apex', 'Salesforce', 'REST APIs']
     }
@@ -378,7 +383,7 @@ function App() {
           {/* Embed PDF Resume */}
     <div className="mt-10">
       <iframe
-        src="Rubaina_Roshan_Resume.pdf"
+        src="Rubaina-original-resume.pdf"
         title="Resume"
         width="100%"
         height="700px"
@@ -389,7 +394,7 @@ function App() {
     {/* Download Button */}
     <div className="mt-6 text-center">
       <a
-        href="Rubaina_Roshan_Resume.pdf"
+        href="Rubaina-original-resume.pdf"
         target="_blank"
         rel="noopener noreferrer"
         download
