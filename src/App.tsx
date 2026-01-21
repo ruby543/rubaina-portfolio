@@ -88,7 +88,7 @@ function App() {
       period: 'Jul 2025 – Present',
       location: 'Remote',
       description: [
-        'Translated complex technical concepts (React/Node.js) for 20+ learners, conducting remote training sessions and troubleshooting environment issues—similar to software implementation and onboarding'
+        'Mentored 20+ junior developers by conducting detailed code reviews and providing constructive feedback on JavaScript/React projects, ensuring adherence to clean code and industry standards'
       ],
       technologies: ['JavaScript', 'React', 'VS Code', 'GitHub Codespaces', 'Slack', 'Airtable']
     },
