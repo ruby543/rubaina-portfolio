@@ -100,7 +100,7 @@ function App() {
       description: [
         'Migrated 30+ legacy Process Builders to Salesforce Flows, utilizing Lightning Web Components (LWC) to manually design complex automation logic, improving system efficiency by 40% ',
         'Developed custom Apex Classes and Objects to architect a robust REST API, automating Chatter messaging on Account records with 98% accuracy ',
-        'Leveraged SOQL to secure data endpoints and completed workflow migrations ahead of schedule, enabling the implementation of 3+ additional high-priority tasks',
+        'Leveraged SOQL to secure data endpoints and completed workflow migrations ahead of schedule, enabling the implementation of 15+ additional high-priority tasks',
         'Collaborated in an Agile environment, actively participating in daily stand-ups and Sprint Meetings to align development progress with cross-functional team goals'
       ],
       technologies: ['DevOps', 'SOQL', 'Java', 'Apex', 'Salesforce', 'REST APIs']
