@@ -83,14 +83,44 @@ function App() {
 
   const experiences = [
     {
+      title: 'Graduate Teaching Assistant',
+      company: 'Kennesaw State University',
+      period: 'Jan 2026 - Present',
+      location: 'Kennesaw, GA',
+      description: [
+        'At Kennesaw State University, I leverage Python, Java, PyCharm, and IntelliJ to lead weekly technical labs and office hours for over 80 students, providing 1:1 mentorship in OOP fundamentals while managing grading with high accuracy and a 24-hour response turnaround.'
+      ],
+      technologies: ['Python', 'Java', 'PyCharm', 'IntelliJ']
+    },
+    {
       title: 'Software Developer Mentor',
       company: 'Code the Dream',
-      period: 'Jul 2025 – Present',
+      period: 'Jul 2025 – Jan 2026',
       location: 'Remote',
       description: [
         'Mentored 20+ junior developers by conducting detailed code reviews and providing constructive feedback on JavaScript/React projects, ensuring adherence to clean code and industry standards'
       ],
       technologies: ['JavaScript', 'React', 'VS Code', 'GitHub Codespaces', 'Slack', 'Airtable']
+    },
+     {
+      title: 'UX Designer',
+      company: 'MindFarm Inc.',
+      period: 'Jan 2026 – Feb 2026',
+      location: 'Remote',
+      description: [
+        'As a remote UX Designer for MindFarm Inc., I utilized Figma, Zoviz, Canva, and Notion to translate over five core business pillars into aligned website wireframes while providing critical design and strategic feedback to enhance the company\'s professional narrative for executive stakeholders.'
+      ],
+      technologies: ['Figma', 'Zoviz', 'Microsoft Office', 'Canva', 'Notion']
+    },
+     {
+      title: 'Backend Engineer Intern',
+      company: 'MyStory',
+      period: 'Sep 2025 – Nov 2025',
+      location: 'Remote',
+      description: [
+        'As a remote Backend Engineer Intern for MyStory, I utilized GitHub Copilot to architect and secure payment and authentication integrations via Stripe and Supabase while contributing technical feedback in team meetings to ensure architectural alignment with business objectives.'
+      ],
+      technologies: ['Lovable', 'Vercel', 'Supabase', 'Stripe', 'GitHub Copilot', 'GitHub']
     },
     {
       title: 'Software Engineer Intern',
